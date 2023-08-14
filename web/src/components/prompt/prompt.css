@@ -1,0 +1,19 @@
+.prompt {
+   display: inline-block;
+   font-size: 18px;
+   font-weight: 400;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+
+#command {
+   outline: none;
+   border: none;
+   background-color: transparent;
+   width: fit-content;
+   font-size: 18px;
+   font-weight: 400;
+   padding-left: 5px;
+   padding-right: 5px;
+   color: white;
+}
