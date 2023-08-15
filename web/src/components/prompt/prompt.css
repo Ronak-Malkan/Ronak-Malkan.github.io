@@ -6,7 +6,7 @@
    margin-top: 30px;
 }
 
-#command {
+.command {
    outline: none;
    border: none;
    background-color: transparent;

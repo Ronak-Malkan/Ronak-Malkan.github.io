@@ -2,3 +2,23 @@ body {
    background-color: #313131;
    color: white;
 }
+
+.InfoContainer {
+   width: 50vw;
+   padding: 5px 20px;
+   margin-left: 30px;
+}
+
+.title {
+   color: #6efd6c;
+   font-weight: 400;
+   font-size: 24px;
+}
+
+a:link {
+   color: #637cff;
+}
+
+a:visited {
+   color: #6efd6c;
+}
