@@ -1,11 +1,11 @@
 import Prompt from "../../components/prompt/prompt";
 import Help from "../../components/help/help";
 import FileFolderList from "../../components/fileFolderList/fileFolderList";
-import About_Me from "../../components/aboutMe/aboutMe";
+import AboutMe from "../../components/aboutMe/aboutMe";
 import Projects from "../../components/Projects/Projects";
 import Experience from "../../components/Experience/Experience";
 import Hobbies from "../../components/Hobbies/hobbies";
-import Contact_Me from "../../components/ContactMe/ContactMe";
+import ContactMe from "../../components/ContactMe/ContactMe";
 
 import { useState, useEffect, useRef } from "react";
 
@@ -15,11 +15,11 @@ const Home = () => {
 
    const textFileToComponent = new Map();
 
-   textFileToComponent.set("About_Me.txt", <About_Me />);
+   textFileToComponent.set("About_Me.txt", <AboutMe />);
    textFileToComponent.set("Projects.txt", <Projects />);
    textFileToComponent.set("Experience.txt", <Experience />);
    textFileToComponent.set("Hobbies.txt", <Hobbies />);
-   textFileToComponent.set("Contact_Me.txt", <Contact_Me />);
+   textFileToComponent.set("Contact_Me.txt", <ContactMe />);
 
    const textFiles = [
       "About_Me.txt",
@@ -37,7 +37,7 @@ const Home = () => {
 
    const findCommand = (command) => {
       keyRef.current++;
-      if (command === "--help") {
+      if (command === "help") {
          return <Help key={keyRef.current} />;
       } else if (command === "ls") {
          if (promptPath === "~") {

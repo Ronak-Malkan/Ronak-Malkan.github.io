@@ -1,4 +1,4 @@
-const Contact_Me = () => {
+const ContactMe = () => {
    return (
       <div className="InfoContainer">
          <h3 className="title">Want to Contact Me? Here you go:</h3>
@@ -21,4 +21,4 @@ const Contact_Me = () => {
    );
 };
 
-export default Contact_Me;
+export default ContactMe;

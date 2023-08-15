@@ -1,6 +1,4 @@
-import "./aboutMe.css";
-
-const About_Me = () => {
+const AboutMe = () => {
    return (
       <div className="InfoContainer">
          <h3 className="title">hey, Ronak here</h3>
@@ -14,4 +12,4 @@ const About_Me = () => {
    );
 };
 
-export default About_Me;
+export default AboutMe;
