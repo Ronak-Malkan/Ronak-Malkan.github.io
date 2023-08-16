@@ -88,6 +88,7 @@ const Home = () => {
 
    return (
       <div>
+         <h4 className="help">Type 'help' to see commands and their uses.</h4>
          <div className="commandsContainer">
             <Prompt
                passRef={elemRef[keyRef]}
