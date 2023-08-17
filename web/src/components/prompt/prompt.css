@@ -17,3 +17,17 @@
    padding-right: 5px;
    color: white;
 }
+
+@media (max-width: 481px) {
+   .command {
+      outline: none;
+      border: none;
+      background-color: transparent;
+      width: fit-content;
+      font-size: 18px;
+      font-weight: 400;
+      padding-left: 30px;
+      padding-right: 5px;
+      color: white;
+   }
+}

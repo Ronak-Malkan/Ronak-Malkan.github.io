@@ -12,6 +12,7 @@ body {
 
 .InfoContainer {
    width: 50vw;
+   text-align: justify;
    padding: 5px 20px;
    margin-left: 30px;
 }
