@@ -34,3 +34,12 @@ a:link {
 a:visited {
    color: #6efd6c;
 }
+
+@media (max-width: 481px) {
+   .InfoContainer {
+      width: 80vw;
+      text-align: justify;
+      padding: 5px 20px;
+      margin-left: 30px;
+   }
+}
